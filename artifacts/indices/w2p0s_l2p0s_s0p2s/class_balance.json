@@ -1,0 +1,41 @@
+{
+  "overall": {
+    "rows": 897702,
+    "pos_count": 12397,
+    "pos_rate": 0.013809705225119248
+  },
+  "train": {
+    "rows": 632989,
+    "pos_count": 8554,
+    "pos_rate": 0.013513662954648502
+  },
+  "val": {
+    "rows": 130719,
+    "pos_count": 1942,
+    "pos_rate": 0.01485629480029682
+  },
+  "test": {
+    "rows": 133994,
+    "pos_count": 1901,
+    "pos_rate": 0.014187202412048301
+  },
+  "params": {
+    "seed": 67,
+    "fps": 25.0,
+    "w_seconds": 2.0,
+    "w_frames": 50,
+    "clip_len_seconds": 2.0,
+    "clip_len_frames": 50,
+    "stride_seconds": 0.2,
+    "stride_frames": 5,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15,
+    "label_encoding": {
+      "clear": 0,
+      "imminent": 1,
+      "onset": 2,
+      "smoke": 3
+    }
+  }
+}

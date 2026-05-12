@@ -1,0 +1,23 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# large dataset files 
+datasets/
+
+# temp files
+artifacts/temp/
+# Large local ML artifacts
+artifacts/embeddings/
+*.pyc
+__pycache__/

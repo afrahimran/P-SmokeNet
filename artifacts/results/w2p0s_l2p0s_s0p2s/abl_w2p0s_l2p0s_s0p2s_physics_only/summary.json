@@ -1,0 +1,35 @@
+{
+  "exp_name": "abl_w2p0s_l2p0s_s0p2s_physics_only",
+  "run_name": "w2p0s_l2p0s_s0p2s",
+  "backbone_name": "convnext_tiny",
+  "model_type": "physics_only",
+  "use_physics": true,
+  "epochs": 6,
+  "best_threshold": 0.75,
+  "params_trainable": 77506,
+  "latency_per_clip_sec": 7.739556687218802e-06,
+  "clip_metrics_test": {
+    "threshold": 0.75,
+    "pr_auc": 0.0288337388516316,
+    "roc_auc": 0.6474748974640645,
+    "precision": 0.048762467676394534,
+    "recall": 0.13887427669647553,
+    "f1": 0.07218045112781955,
+    "tp": 264,
+    "fp": 5150,
+    "tn": 126943,
+    "fn": 1637
+  },
+  "event_metrics_test": {
+    "threshold": 0.75,
+    "total_events": 213,
+    "detected_events": 56,
+    "missed_events": 157,
+    "event_detection_rate": 0.26291079812206575,
+    "missed_detection_rate": 0.7370892018779343,
+    "mean_lead_time_sec": 1.2435714285714285,
+    "median_lead_time_sec": 1.5,
+    "false_alarms_per_min": 2.934956316760458,
+    "clip_prediction_stability": 0.9782136935730006
+  }
+}

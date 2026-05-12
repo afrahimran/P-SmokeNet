@@ -1,0 +1,35 @@
+{
+  "exp_name": "backbone_w2p0s_l2p0s_s0p2s_convnext_baseline",
+  "run_name": "w2p0s_l2p0s_s0p2s",
+  "backbone_name": "convnext_tiny",
+  "model_type": "embedding_only",
+  "use_physics": false,
+  "epochs": 6,
+  "best_threshold": 0.85,
+  "params_trainable": 827266,
+  "latency_per_clip_sec": 8.075719787960961e-06,
+  "clip_metrics_test": {
+    "threshold": 0.85,
+    "pr_auc": 0.020488925644685248,
+    "roc_auc": 0.6292301799244441,
+    "precision": 0.02431192660550459,
+    "recall": 0.16728037874802734,
+    "f1": 0.04245377478138976,
+    "tp": 318,
+    "fp": 12762,
+    "tn": 119331,
+    "fn": 1583
+  },
+  "event_metrics_test": {
+    "threshold": 0.85,
+    "total_events": 213,
+    "detected_events": 48,
+    "missed_events": 165,
+    "event_detection_rate": 0.22535211267605634,
+    "missed_detection_rate": 0.7746478873239436,
+    "mean_lead_time_sec": 1.5208333333333333,
+    "median_lead_time_sec": 1.88,
+    "false_alarms_per_min": 2.275244325678545,
+    "clip_prediction_stability": 0.9843108142423268
+  }
+}

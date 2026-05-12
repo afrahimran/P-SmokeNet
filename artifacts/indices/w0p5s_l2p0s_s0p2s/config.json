@@ -1,0 +1,19 @@
+{
+  "seed": 67,
+  "fps": 25.0,
+  "w_seconds": 0.5,
+  "w_frames": 12,
+  "clip_len_seconds": 2.0,
+  "clip_len_frames": 50,
+  "stride_seconds": 0.2,
+  "stride_frames": 5,
+  "train_ratio": 0.7,
+  "val_ratio": 0.15,
+  "test_ratio": 0.15,
+  "label_encoding": {
+    "clear": 0,
+    "imminent": 1,
+    "onset": 2,
+    "smoke": 3
+  }
+}

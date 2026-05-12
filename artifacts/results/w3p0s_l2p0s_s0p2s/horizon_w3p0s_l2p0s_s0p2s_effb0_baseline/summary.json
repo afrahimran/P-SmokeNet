@@ -1,0 +1,35 @@
+{
+  "exp_name": "horizon_w3p0s_l2p0s_s0p2s_effb0_baseline",
+  "run_name": "w3p0s_l2p0s_s0p2s",
+  "backbone_name": "effb0",
+  "model_type": "embedding_only",
+  "use_physics": false,
+  "epochs": 6,
+  "best_threshold": 0.85,
+  "params_trainable": 925570,
+  "latency_per_clip_sec": 9.581313601561955e-06,
+  "clip_metrics_test": {
+    "threshold": 0.85,
+    "pr_auc": 0.03454762474917135,
+    "roc_auc": 0.6631764150785961,
+    "precision": 0.03776521242931991,
+    "recall": 0.2589825684809676,
+    "f1": 0.0659181455994205,
+    "tp": 728,
+    "fp": 18549,
+    "tn": 112574,
+    "fn": 2083
+  },
+  "event_metrics_test": {
+    "threshold": 0.85,
+    "total_events": 213,
+    "detected_events": 84,
+    "missed_events": 129,
+    "event_detection_rate": 0.39436619718309857,
+    "missed_detection_rate": 0.6056338028169014,
+    "mean_lead_time_sec": 2.1661904761904758,
+    "median_lead_time_sec": 2.84,
+    "false_alarms_per_min": 3.3203326283825656,
+    "clip_prediction_stability": 0.9759330718291143
+  }
+}

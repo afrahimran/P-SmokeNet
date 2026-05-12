@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> P-SmokeNet </title>
+    <meta
+      name="description"
+      content="Dashboard for surgical smoke early warning."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="sidebar__brand">
+          <div class="brand-mark">PS</div>
+          <div>
+            <div class="brand-title"> P-SmokeNet </div>
+            <div class="brand-subtitle"> Predicting surgical smoke onset in MIS </div>
+          </div>
+        </div>
+
+        <nav class="nav" id="navMenu">
+          <button class="nav__item active" data-route="timeline"> Demo </button>
+          <button class="nav__item" data-route="videos"> Demo Videos </button>
+          <button class="nav__item" data-route="runs"> Technical </button>
+        </nav>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <h1 class="page-title" id="pageTitle">Demo</h1>
+            <p class="page-subtitle" id="pageSubtitle"> Review prepared videos and inspect predictions over time. </p>
+          </div>
+          <div class="topbar__actions">
+            <label class="api-input-wrap" title="Backend base URL">
+              <span>API</span>
+              <input id="apiBaseInput" type="text" placeholder="http://localhost:8000" />
+            </label>
+            <button class="btn btn--secondary" id="reloadAllBtn" type="button">Reload</button>
+            <span class="pill" id="backendStatusPill">Connecting…</span>
+          </div>
+        </header>
+
+        <section class="global-banner hidden" id="globalBanner"></section>
+
+        <section class="view view--active" id="view-timeline"></section>
+        <section class="view" id="view-videos"></section>
+        <section class="view" id="view-runs"></section>
+      </main>
+    </div>
+
+    <template id="loadingCardTemplate">
+      <div class="card card--soft centered-card">
+        <div class="loader"></div>
+        <p class="muted">Loading…</p>
+      </div>
+    </template>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
