@@ -1,5 +1,5 @@
 export const DEFAULT_API_BASE =
-  localStorage.getItem("psmokenet_api_base") || "http://p-smokenet.onrender.com";
+  localStorage.getItem("psmokenet_api_base") || "https://localhost:8000";
 
 export const DEMO_MAX_SECONDS = 60;
 
