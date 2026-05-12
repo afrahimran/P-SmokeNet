@@ -1,0 +1,8 @@
+{
+  "backbone_name": "convnext_tiny",
+  "embedding_dim": 768,
+  "dtype": "float16",
+  "source": "demo_videos",
+  "run_name": "w2p0s_l2p0s_s0p2s",
+  "exp_name": "abl_w2p0s_l2p0s_s0p2s_fusion"
+}
