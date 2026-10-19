@@ -1,23 +1,13 @@
-# python
-__pycache__/
-*.pyc
-*.pyo
-.venv/
-*.egg-info/
-
-# macOS
-.DS_Store
-
-# jupyter
-.ipynb_checkpoints/
-*.ipynb
-
-# large dataset files 
+artifacts/
+artifacts.zip
 datasets/
+backend/demo_videos/
 
-# temp files
-artifacts/temp/
-# Large local ML artifacts
-artifacts/embeddings/
-*.pyc
+.env
+.env.*
+!.env.example
+.venv/
+venv/
 __pycache__/
+.ipynb_checkpoints/
+.DS_Store
