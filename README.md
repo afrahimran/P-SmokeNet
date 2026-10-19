@@ -1,6 +1,4 @@
 # P-SmokeNet: Temporal Fusion Network for Surgical Smoke Onset Prediction in MIS
-By Fathima Afrah Imran
-20232278 | w2084807
 
 This folder contains the implementation, preprocessing pipeline, experimental artifacts, and demo interface developed for the project.
 
